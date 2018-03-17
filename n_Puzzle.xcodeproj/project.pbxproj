@@ -23,8 +23,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9C182252205BADDC00DD7562 /* breadthFirst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = breadthFirst.h; path = ../breadthFirst.h; sourceTree = "<group>"; };
 		9CC5CF07205B3E4C00B3706B /* n_Puzzle */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = n_Puzzle; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CC5CF0A205B3E4C00B3706B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		9CC5CF11205B3E9300B3706B /* n_Puzzle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = n_Puzzle.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,8 @@
 			isa = PBXGroup;
 			children = (
 				9CC5CF0A205B3E4C00B3706B /* main.cpp */,
+				9CC5CF11205B3E9300B3706B /* n_Puzzle.h */,
+				9C182252205BADDC00DD7562 /* breadthFirst.h */,
 			);
 			path = n_Puzzle;
 			sourceTree = "<group>";
@@ -248,6 +252,7 @@
 				9CC5CF10205B3E4C00B3706B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
